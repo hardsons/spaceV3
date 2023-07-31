@@ -1,0 +1,8 @@
+*.pro.user
+debug/
+release/
+.qtc_clangd/
+.qmake.stash
+Makefile.*
+Makefile
+*.autosave

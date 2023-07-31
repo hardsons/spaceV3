@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>spaceBackground.jpg</file>
+        <file>exitButton.png</file>
+        <file>venusBackgroundImage.jpg</file>
+    </qresource>
+</RCC>

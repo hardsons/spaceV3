@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+		<file>dosyaio.cpp</file>
+        <file>ui/exitButton/ExitButton.qml</file>
+        <file>ui/hoverRect/HoveredArea.qml</file>
+        <file>ui/planetInfos/earthInfo.qml</file>
+        <file>MainPage.qml</file>
+        <file>ui/planetInfos/mercuryInfo.qml</file>
+        <file>ui/planetInfos/venusInfo.qml</file>
+        <file>ui/planetInfos/marsInfo.qml</file>
+        <file>ui/planetInfos/jupiterInfo.qml</file>
+        <file>ui/planetInfos/saturnInfo.qml</file>
+        <file>ui/planetInfos/uranusInfo.qml</file>
+        <file>ui/planetInfos/neptuneInfo.qml</file>
+        <file>ui/background/Background.qml</file>
+        <file>ui/background/InfoText.qml</file>
+		<file>dosyaio.cpp</file>
+
+    </qresource>
+</RCC>
