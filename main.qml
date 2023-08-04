@@ -6,6 +6,7 @@ import "ui/hoverRect"
 import CustomComponents 1.0
 
 Window {
+    property string prevPage : "MainPage.qml"
     width: screen.width
     height: screen.height
     visible: true
@@ -13,6 +14,9 @@ Window {
     title: qsTr("Space Travel")
     ExitButton{
         id:exitButtonId
+    }
+    BackButton{
+        id:backButtonId
     }
     Loader{
         id:planetInfosLoader
@@ -23,9 +27,5 @@ Window {
             id: dosyaIO
         }
 
-        Text {
-            text: dosyaIO.readTextFromFile("C:/Users/asertlerogullari/Desktop/deneme/spaceV3/venus.txt")
-            anchors.centerIn: parent
-            wrapMode: Text.WordWrap
-        }
+
 }

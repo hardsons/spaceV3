@@ -3,7 +3,7 @@ import QtQuick 2.15
 Rectangle{
     anchors{
         right: parent.right
-        rightMargin: 30
+        rightMargin: 100
         top: parent.top
         topMargin: 30
     }
@@ -13,12 +13,12 @@ Rectangle{
     radius: 180
     Image {
         id: exitButton
-        source: "qrc:/exitButton.png"
+        source: "qrc:/backButton.png"
         anchors.fill: parent
         MouseArea{
             id:exitClickedArea
             anchors.fill: parent
-            onClicked: Qt.quit()
+            onClicked: planetInfosLoader.source = prevPage
         }
     }
 }

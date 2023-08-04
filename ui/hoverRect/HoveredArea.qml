@@ -19,6 +19,7 @@ Rectangle{
             anchors.fill: parent
             hoverEnabled: true
             onClicked: {
+                prevPage = planetInfosLoader.source
                 planetInfosLoader.source = redirectedPage
                 console.log("sayi : ")
             }

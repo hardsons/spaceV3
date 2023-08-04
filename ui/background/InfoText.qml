@@ -9,10 +9,15 @@ Rectangle{
         rightMargin: parent.width*0.1
         topMargin: parent.height*0.1
         bottomMargin: parent.height*0.1
-    }
-    TextArea{
-        id:infoTextAreaId
-        anchors.fill: parent
 
+    }
+    color:"transparent"
+    Text {
+        text: dosyaIO.readTextFromFile("C:/Users/asertlerogullari/Desktop/deneme/spaceV3/venus.txt")
+        anchors.centerIn: parent
+        wrapMode: Text.WordWrap
+        anchors.fill: parent
+        font.pixelSize: 18
+        color:"white"
     }
 }

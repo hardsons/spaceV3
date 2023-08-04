@@ -3,5 +3,7 @@
         <file>spaceBackground.jpg</file>
         <file>exitButton.png</file>
         <file>venusBackgroundImage.jpg</file>
+        <file>backButton.png</file>
+        <file>resource.qrc</file>
     </qresource>
 </RCC>
