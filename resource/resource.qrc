@@ -20,5 +20,6 @@
         <file>saturnBackgroundImage.jpg</file>
         <file>infoText/neptune.txt</file>
         <file>neptuneBackgroundImage.jpg</file>
+        <file>doughnutChart.png</file>
     </qresource>
 </RCC>

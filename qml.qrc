@@ -16,5 +16,7 @@
         <file>ui/background/InfoText.qml</file>
         <file>ui/exitButton/BackButton.qml</file>
         <file>ui/charts/DonutChart.qml</file>
+        <file>ui/charts/mercuryDonut.qml</file>
+        <file>ui/exitButton/DonutButton.qml</file>
     </qresource>
 </RCC>

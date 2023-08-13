@@ -7,6 +7,7 @@ Canvas {
     property real chartWidth
     property real chartHeight
     property variant points: []//{x: 'Zero', y: 60, color: 'red'}, {x: 'One', y: 40, color: 'blue' }] // y values don't need to add to 100
+    property real animationProgress: 0
 
     // private
     onPointsChanged: requestPaint()
@@ -37,7 +38,7 @@ Canvas {
         context.clearRect(0, 0, width, height) // new points data (animation)
 
         for(i = 0; i < points.length; i++) {
-            var end    = start + 2 * Math.PI * points[i].y / total // radians
+            var end    = start + 2 * Math.PI * points[i].y / total *  animationProgress // radians
             var center = Qt.vector2d(width*0.5, height *0.5) // center
 
             // pie
@@ -65,19 +66,46 @@ Canvas {
             // text
             context.fillStyle = 'black'
             var percent   = points[i].y / total * 100
-            var text      = points[i].x + ' ' + (percent < 1? '< 1': Math.round(percent)) + '%' + " (" +Math.round(points[i].y) +"°)"// display '< 1%' if < 1
+            var text      = points[i].x + ' ' + (percent < 1? '< 1': Math.round(percent)) + '%'// display '< 1%' if < 1
             var textWidth = context.measureText(text).width
             context.fillText(text, (point.x < center.x? - textWidth - 0.5 * pixelSize : 0.5 * pixelSize) + point.x, point.y + 0.4 * pixelSize)
 
-            context.beginPath()
-
-            context.fillStyle = 'white'
-            context.arc(center.x, center.y, radius/2, start-1, end) // x, y, radius, startingAngle (radians), endingAngle (radians)
-            context.lineTo(center.x, center.y) // center
-            context.fill()
-
             start = end // radians
         }
+        context.beginPath()
+
+        context.fillStyle = 'white'
+        context.arc(center.x, center.y, radius/2, 0*Math.PI, 2*Math.PI) // x, y, radius, startingAngle (radians), endingAngle (radians)
+        context.lineTo(center.x, center.y) // center
+        context.fill()
     }
+    // Add a Timer for animation control
+    Timer {
+        id: animationTimer
+        interval: 16 // Roughly 60 FPS
+        repeat: true
+        running: true
+        onTriggered: {
+            // Animate the pie chart over a specific duration
+            animationProgress += 0.01 // Adjust the animation speed here
+
+            if (animationProgress >= 1) {
+//                animationProgress = 0
+                animationTimer.stop()
+            }
+            root.requestPaint()
+        }
+    }
+
+    // Add a MouseArea to start the animation on click
+//    MouseArea {
+//        anchors.fill: parent
+//        onClicked: {
+//            if (!animationTimer.running) {
+//                animationTimer.start()
+//            }
+//        }
+//    }
 }
+
 

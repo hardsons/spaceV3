@@ -22,7 +22,7 @@ Flickable{
             anchors.centerIn: parent
             wrapMode: Text.WordWrap
             anchors.fill: parent
-            font.pixelSize: 18
+            font.pixelSize: 25
             color:"white"
         }
     }
