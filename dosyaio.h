@@ -11,6 +11,7 @@ public:
     explicit DosyaIO(QObject *parent = nullptr);
 
     Q_INVOKABLE QString readTextFromFile(const QString &filePath);
+    Q_INVOKABLE QString readHeaderFromFile(const QString &filePath);
 };
 
 #endif // DOSYAIO_H

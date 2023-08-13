@@ -1,10 +1,10 @@
 import QtQuick 2.15
+import "../background"
 
-Rectangle{
-    anchors.fill: parent
-    color: "black"
-    MouseArea{
-        anchors.fill: parent
-        onClicked: Qt.quit()
+Background{
+    backGroundSource: "qrc:/earthBackgroundImage.jpg"
+    blurActive: true
+    InfoText{
+        textSource : "C:/Users/asertlerogullari/Desktop/deneme/spaceV3/resource/infoText/earth.txt"
     }
 }

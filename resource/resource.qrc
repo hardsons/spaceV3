@@ -5,5 +5,20 @@
         <file>venusBackgroundImage.jpg</file>
         <file>backButton.png</file>
         <file>resource.qrc</file>
+        <file>uranusBackgroundImage.jpg</file>
+        <file>mercuryBackgroundImage.jpg</file>
+        <file>infoText/earth.txt</file>
+        <file>infoText/mercury.txt</file>
+        <file>infoText/uranus.txt</file>
+        <file>infoText/venus.txt</file>
+        <file>earthBackgroundImage.jpg</file>
+        <file>marsBackgroundImage.jpg</file>
+        <file>infoText/jupiter.txt</file>
+        <file>infoText/mars.txt</file>
+        <file>jupiterBackgroundImage.jpg</file>
+        <file>infoText/saturn.txt</file>
+        <file>saturnBackgroundImage.jpg</file>
+        <file>infoText/neptune.txt</file>
+        <file>neptuneBackgroundImage.jpg</file>
     </qresource>
 </RCC>

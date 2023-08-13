@@ -24,8 +24,8 @@ Window {
         source: "MainPage.qml"
     }
     DosyaIO {
-            id: dosyaIO
-        }
+        id: dosyaIO
+    }
 
 
 }

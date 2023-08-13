@@ -10,7 +10,8 @@ Background{
         planetY: 555
         planetRadius: 35
         planetName: "Mercury"
-        redirectedPage: "qrc:/ui/planetInfos/venusInfo.qml"
+        redirectedPage: "qrc:/ui/planetInfos/mercuryInfo.qml"
+
     }
     HoveredArea{
         id:venusAreaId
@@ -18,6 +19,7 @@ Background{
         planetY: 535
         planetRadius: 40
         planetName: "Venus"
+        redirectedPage: "qrc:/ui/planetInfos/venusInfo.qml"
     }
     HoveredArea{
         id:earthAreaId
@@ -25,6 +27,7 @@ Background{
         planetY: 512
         planetRadius: 50
         planetName: "Earth"
+        redirectedPage: "qrc:/ui/planetInfos/earthInfo.qml"
     }
     HoveredArea{
         id:marsAreaId
@@ -32,6 +35,7 @@ Background{
         planetY: 505
         planetRadius: 45
         planetName: "Mars"
+        redirectedPage: "qrc:/ui/planetInfos/marsInfo.qml"
     }
     HoveredArea{
         id:jupiterAreaId
@@ -39,6 +43,7 @@ Background{
         planetY: 336
         planetRadius: 230
         planetName: "Jupiter"
+        redirectedPage: "qrc:/ui/planetInfos/jupiterInfo.qml"
     }
     HoveredArea{
         id:saturnAreaId
@@ -46,6 +51,7 @@ Background{
         planetY: 320
         planetRadius: 155
         planetName: "Saturn"
+        redirectedPage: "qrc:/ui/planetInfos/saturnInfo.qml"
     }
     HoveredArea{
         id:uranusAreaId
@@ -53,6 +59,7 @@ Background{
         planetY: 265
         planetRadius: 115
         planetName: "Uranus"
+        redirectedPage: "qrc:/ui/planetInfos/uranusInfo.qml"
     }
     HoveredArea{
         id:neptuneAreaId
@@ -60,6 +67,7 @@ Background{
         planetY: 215
         planetRadius: 90
         planetName: "Neptune"
+        redirectedPage: "qrc:/ui/planetInfos/neptuneInfo.qml"
     }
 }
 
