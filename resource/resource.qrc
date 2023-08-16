@@ -21,5 +21,6 @@
         <file>infoText/neptune.txt</file>
         <file>neptuneBackgroundImage.jpg</file>
         <file>doughnutChart.png</file>
+        <file>lineChart.png</file>
     </qresource>
 </RCC>

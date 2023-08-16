@@ -1,0 +1,10 @@
+Mars has a thin atmosphere compared to Earth, primarily composed of carbon dioxide, with trace amounts of other gases. Here's a rough approximation of the percentages of the main gases in Mars' atmosphere:
+
+1. Carbon Dioxide (CO2): Approximately 95.3%
+2. Nitrogen (N2): Approximately 2.7%
+3. Argon (Ar): Approximately 1.6%
+4. Oxygen (O2): Trace amounts (around 0.13%)
+
+Mars' atmosphere is much thinner than Earth's, with a surface pressure less than 1% of Earth's. The predominantly carbon dioxide composition and low pressure make the Martian atmosphere quite different from that of Earth.
+
+Please note that these percentages are approximate and can vary slightly based on location and altitude within Mars' atmosphere.

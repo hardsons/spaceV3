@@ -1,0 +1,11 @@
+Jupiter's atmosphere is primarily composed of hydrogen and helium, with trace amounts of other gases. Due to its nature as a gas giant, Jupiter's atmospheric composition is different from that of terrestrial planets like Earth. Here's a rough approximation of the percentages of the main gases in Jupiter's atmosphere
+
+1. Hydrogen (H2) Approximately 89.8%
+2. Helium (He) Approximately 10.2%
+3. Methane (CH4) Trace amounts (around 0.3%)
+4. Ammonia (NH3) Trace amounts (around 0.026%)
+5. Hydrogen Deuteride (HD) Trace amounts (smaller than 0.002%)
+
+Jupiter's massive size and strong gravitational influence make it an anomaly among the planets, with a composition that more closely resembles a star than a rocky planet. The high percentage of hydrogen and helium contributes to its distinctive appearance and powerful magnetic field.
+
+Please note that these percentages are approximate and can vary slightly based on specific regions within Jupiter's atmosphere.

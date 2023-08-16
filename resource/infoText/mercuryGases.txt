@@ -1,0 +1,13 @@
+Mercury's atmosphere is extremely thin and tenuous, with the majority of its composition being a result of outgassing from the planet's surface. The atmospheric gases on Mercury are primarily composed of:
+
+1. Oxygen (O2): Oxygen is the most abundant element in Mercury's exosphere, making up about 42% of its composition.
+
+2. Sodium (Na): Sodium is the second most abundant element, constituting around 29% of the exosphere's composition. It is thought to originate from the vaporization of surface rocks and dust.
+
+3. Hydrogen (H2): Hydrogen is present at approximately 22% in the exosphere. It is likely the result of various processes, including the interaction of solar wind with the surface and the photodissociation of water ice.
+
+4. Helium (He): Helium is present at around 6%, originating from the solar wind and potentially from radioactive decay within the planet's interior.
+
+5. Potassium (K): Potassium is a minor component, making up less than 1% of the exosphere. It also likely originates from surface vaporization.
+
+It's important to note that Mercury's exosphere is so thin that it would be considered a vacuum by Earthly standards, and it does not have a significant, stable atmosphere like other planets. Instead, the gases in Mercury's exosphere are widely dispersed and subject to the influence of solar radiation and the planet's weak gravitational field.

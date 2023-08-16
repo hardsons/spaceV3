@@ -3,11 +3,11 @@ import "../background"
 import "../exitButton"
 
 Background{
-    backGroundSource: "qrc:/mercuryBackgroundImage.jpg"
+    backGroundSource: "qrc:/neptuneBackgroundImage.jpg"
     blurActive: true
     DonutButton{
         id:returnInfoButton
-        planetChartSource: "qrc:/ui/planetInfos/mercuryInfo.qml"
+        planetChartSource: "qrc:/ui/planetInfos/neptuneInfo.qml"
     }
     Flickable{
         anchors.fill: parent
@@ -24,18 +24,18 @@ Background{
             id:donutChartId
             chartWidth :parent.width*0.5
             chartHeight: parent.height*0.4
-            title:  "Mercury's atmosphere"
+            title:  "Neptune's atmosphere"
             points: [
-                {x: 'Oxygen (O2)',          y: 42,  color: 'red'    },
-                {x: 'Sodium (Na)',          y: 29,  color: 'orange' },
-                {x: 'Hydrogen (H2)',        y: 22,  color: 'gold'   },
-                {x: 'Helium (He)',          y: 6,   color: 'cyan'   },
-                {x: 'Potassium (K)',        y: 1,   color: 'green'  },
+                {x: 'Hydrogen (H2)',          y: 80,        color: 'red'    },
+                {x: 'Ethane (C2H6)',          y: 0.0025,    color: 'orange' },
+                {x: 'Helium (He)',            y: 19,        color: 'gold'   },
+                {x: 'Hydrogen Deuteride (HD)',y: 0.015,     color: 'cyan'   },
+                {x: 'Methane (CH4)',          y: 1.5,       color: 'green'  }
             ]
         }
         Text {
             id:textInfo
-            text: dosyaIO.readTextFromFile("C:/Users/asertlerogullari/Desktop/deneme/spaceV3/resource/infoText/mercuryGases.txt")
+            text: dosyaIO.readTextFromFile("C:/Users/asertlerogullari/Desktop/deneme/spaceV3/resource/infoText/neptuneGases.txt")
             anchors.top: donutChartId.bottom
             wrapMode: Text.WordWrap
 //            anchors.fill: parent

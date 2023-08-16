@@ -14,10 +14,13 @@ Canvas {
 
     width: chartWidth;  height: chartHeight // default size
     property double factor: Math.min(width, height)
-    anchors.centerIn: parent
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.topMargin: height*0.15
 
     Text { // title
         text: title
+        color: "white"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: parent.top
         anchors.topMargin: -height*0.3
@@ -64,7 +67,7 @@ Canvas {
             context.stroke()
 
             // text
-            context.fillStyle = 'black'
+            context.fillStyle = 'white'
             var percent   = points[i].y / total * 100
             var text      = points[i].x + ' ' + (percent < 1? '< 1': Math.round(percent)) + '%'// display '< 1%' if < 1
             var textWidth = context.measureText(text).width

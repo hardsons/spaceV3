@@ -1,0 +1,11 @@
+Earth's atmosphere is composed of a mixture of gases, with nitrogen and oxygen making up the majority. Here's a rough approximation of the percentages of the main gases in Earth's atmosphere:
+
+1. Nitrogen (N2): Approximately 78%
+2. Oxygen (O2): Approximately 21%
+3. Argon (Ar): Approximately 0.93%
+4. Carbon Dioxide (CO2): Approximately 0.04%
+5. Neon (Ne): Approximately 0.0018%
+6. Helium (He): Approximately 0.0005%
+7. Methane (CH4): Approximately 0.0002%
+
+These percentages can vary slightly based on location, altitude, and other factors. The atmosphere also contains trace amounts of other gases, water vapor, and aerosols, which play important roles in various atmospheric processes, weather, and climate. Keep in mind that the percentages provided here are approximate and can change over time due to natural and human-induced factors.

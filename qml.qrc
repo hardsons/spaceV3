@@ -18,5 +18,12 @@
         <file>ui/charts/DonutChart.qml</file>
         <file>ui/charts/mercuryDonut.qml</file>
         <file>ui/exitButton/DonutButton.qml</file>
+        <file>ui/charts/earthDonut.qml</file>
+        <file>ui/charts/venusDonut.qml</file>
+        <file>ui/charts/marsDonut.qml</file>
+        <file>ui/charts/jupiterDonut.qml</file>
+        <file>ui/charts/neptuneDonut.qml</file>
+        <file>ui/charts/saturnDonut.qml</file>
+        <file>ui/charts/uranusDonut.qml</file>
     </qresource>
 </RCC>
