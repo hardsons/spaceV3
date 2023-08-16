@@ -8,3 +8,4 @@ Qml tarafında öğrenilen bilgileri denediğim bir kod çalışması.
 - Qml sınıflarını gruplandırma
 - Farklı import yöntemleri
 - C++ tarafından fonksiyon ve obje çağırma
+- Canvas ile yeni obje oluşturma
